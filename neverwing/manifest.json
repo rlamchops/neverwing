@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "neverwing",
+  "description": "Remove all everwing notifications in messenger",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "test"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["remove_script.js"],
+    "persistent": false
+  }
+}
