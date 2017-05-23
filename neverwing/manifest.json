@@ -7,7 +7,7 @@
 
   "browser_action": {
     "default_icon": "icon.png",
-    "default_title": "test"
+    "default_title": "Clear everwing notifications"
   },
   "permissions": [
     "activeTab"
