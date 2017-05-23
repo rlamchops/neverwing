@@ -18,7 +18,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
       var list = Array.prototype.slice.call(document.querySelectorAll("div._497p._11es"));
       while(list[0]) {
         console.log(list[0].innerHTML);
-        list[0].parentNode.removeChild(list[0]);
+        list[0].style.display = 'none';
         list.shift();
         if (!list[0]) {break;}
         console.log(list[0].innerHTML);
